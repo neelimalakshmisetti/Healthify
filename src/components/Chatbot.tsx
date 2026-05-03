@@ -151,7 +151,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ diagnosisData }) => {
     } catch (error: any) {
       console.error('Error generating response:', error);
       
-      let errorMsg = 'Sorry, I am having trouble connecting right now. Please try again.';
+      let errorMsg = `Sorry, I am having trouble connecting right now. Error details: ${error.message || 'Unknown error'}`;
       if (error.message === 'API_KEY_MISSING') {
         errorMsg = '⚠️ Gemini API Key is missing! Please open the `.env` file and add your VITE_GEMINI_API_KEY to enable real-time AI.';
       } else if (error.message && error.message.includes('404')) {
