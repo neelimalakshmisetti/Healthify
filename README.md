@@ -3,7 +3,7 @@
 Healthify is a modern, AI-powered healthcare application built with React and Tailwind CSS. It features a completely dynamic **Doctor Portal** and a **Real-Time Generative AI Assistant** (powered by Google Gemini) to provide an intelligent, context-aware medical companion.
 
 ## 🚀 Live Demo
-**[Insert Netlify Live Link Here]**
+**https://healthifyyyyyyy.netlify.app/**
 
 ## 🌟 Features
 - **Intelligent AI Chatbot:** Uses Gemini 2.5 Flash to act as a medical follow-up assistant. It understands symptom context, asks clarifying questions, and provides safe, actionable advice.
